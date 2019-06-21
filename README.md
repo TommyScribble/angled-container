@@ -14,7 +14,7 @@ Include in a class and then add the class to you container
 
 ```scss
 .angle-example {
-	@include angle-container($angle-top: 3, $angle-bottom: 3, $angle-position-y: 'both', $angle-position-x: 'right', $angle-position-bottom-x: 'left');
+	@include angle-container($angle-top: 3, $angle-bottom: 3, $angle-position-y: 'both', $angle-position-x: 'right');
 }
 ```
 
